@@ -14,4 +14,4 @@ RUN go mod tidy
 EXPOSE 8080
 
 # Ejecutar la aplicación
-CMD ["go", "run", "main.go"]
+CMD ["go", "run", "main.go","--host=0.0.0.0"]
